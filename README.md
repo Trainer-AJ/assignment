@@ -80,4 +80,4 @@ docker-compose up --build
 
 ### Contact
 
-For questions or support, please contact support@samyaktechlabs.com.
+For questions or support, please contact [me](https://www.linkedin.com/in/ananay-ojha/)
