@@ -1,0 +1,10 @@
+name: test if all good
+
+on: workflow_dispatch
+
+jobs:
+  print-secrets:
+    runs-on: ubuntu-latest
+
+    steps:
+    - run: echo "${{ secrets.USER_ECR_REPOSITORY }}:user-service-${{ github.sha }}"
